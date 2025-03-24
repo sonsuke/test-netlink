@@ -1,4 +1,4 @@
-2. Giải thích khi nào nên và không nên sử dụng caching trong hệ thống backend.
+# Giải thích khi nào nên và không nên sử dụng caching trong hệ thống backend.
 ## Use case nên dùng:
 - Câu truy vấn tính toán phức tạp, data lớn có thể tái sử dụng
 - Hệ thống có dữ liệu ít thay đổi, thao tác ghi vào db 
@@ -9,7 +9,7 @@
 - Data thay đổi nhiều thì việc caching sẽ gây ra sự thiếu chính xác về dữ liệu
 - Dữ liệu nhạy cảm, cần bảo mật, cần cẩn trọng khi sử dụng cache để tránh lộ thông tin
 
-3. Database & Kiến trúc hệ thống
+# Database & Kiến trúc hệ thống
 - Một hệ thống thương mại điện tử đang sử dụng PostgreSQL, nhưng khi số lượng
 đơn hàng tăng lên hàng triệu, các truy vấn trở nên chậm hơn
 
